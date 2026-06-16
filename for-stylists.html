@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Join Cousins | Cousins Styling Studio</title>
+<meta name="description" content="Cousins Styling Studio is looking for licensed barbers, braiders, hairstylists, cosmetologists, and loc specialists. Studio appointments, walk-ins, events, and mobile deployments across the Inland Empire.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#FAFAF7;color:#2A2A22}
+.serif{font-family:Georgia,serif}
+
+.fade-up{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+.fade-up.d1{transition-delay:.12s}
+.fade-up.d2{transition-delay:.24s}
+.fade-up.d3{transition-delay:.36s}
+
+.lift{transition:transform .25s ease,box-shadow .25s ease}
+.lift:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.1)}
+
+.btn-gold{display:inline-block;background:#B8860B;color:#1C3528;text-decoration:none;border-radius:8px;font-weight:700;transition:transform .2s,box-shadow .2s}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(184,135,42,.35)}
+.btn-outline{display:inline-block;background:transparent;color:#C9A84C;text-decoration:none;border-radius:8px;font-weight:600;border:2px solid rgba(184,135,42,.3);transition:border-color .2s,color .2s}
+.btn-outline:hover{border-color:rgba(184,135,42,.65);color:#F0EDE4}
+
+input,select,textarea,button{font-family:inherit}
+input:focus,select:focus,textarea:focus{outline:2px solid #B8860B;outline-offset:1px}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div style="background:#1C3528;padding:100px 32px 88px;position:relative;overflow:hidden">
+  <div style="position:absolute;top:-120px;right:-100px;width:520px;height:520px;border-radius:50%;background:rgba(184,135,42,.04);pointer-events:none"></div>
+  <div style="position:absolute;bottom:-80px;left:-80px;width:340px;height:340px;border-radius:50%;background:rgba(184,135,42,.03);pointer-events:none"></div>
+  <div style="position:relative;z-index:1;max-width:760px;margin:0 auto;text-align:center">
+    <div class="fade-up visible" style="font-size:11px;font-weight:700;color:#B8860B;letter-spacing:.2em;text-transform:uppercase;margin-bottom:24px">Cousins Styling Studio &nbsp;·&nbsp; For Professionals</div>
+    <h1 class="serif fade-up visible d1" style="font-size:clamp(34px,5.5vw,56px);font-weight:700;color:#F0EDE4;line-height:1.1;margin-bottom:24px">Build your career inside<br>a system designed<br>to keep growing.</h1>
+    <p class="fade-up visible d2" style="font-size:16px;color:#A0B4A0;line-height:1.8;max-width:520px;margin:0 auto 36px">Not everyone wants to own a salon. Not everyone wants to be an employee. Some professionals are simply looking for a well-run environment where they can focus on their craft, serve people well, and be part of something that takes the work seriously. That is what we are building at Cousins.</p>
+    <div class="fade-up visible d3" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+      <a href="#apply" onclick="document.getElementById('apply').scrollIntoView({behavior:'smooth'});return false" class="btn-gold" style="padding:15px 38px;font-size:15px;box-shadow:0 4px 20px rgba(184,135,42,.3)">Apply to Join</a>
+      <a href="#how-it-works" onclick="document.getElementById('how-it-works').scrollIntoView({behavior:'smooth'});return false" class="btn-outline" style="padding:15px 28px;font-size:14px">See How It Works</a>
+    </div>
+  </div>
+</div>
+
+<!-- BELIEF STATEMENT -->
+<div style="background:#FAFAF7;padding:80px 32px">
+  <div style="max-width:680px;margin:0 auto;text-align:center">
+    <p class="serif fade-up" style="font-size:clamp(20px,3vw,26px);color:#1C3528;line-height:1.6;margin-bottom:20px">We believe great care comes from great professionals.</p>
+    <p class="fade-up d1" style="font-size:15px;color:#5A5A52;line-height:1.85;max-width:560px;margin:0 auto">When professionals are respected, prepared, and supported, clients receive a better experience. Everything we do starts there.</p>
+  </div>
+</div>
+
+<!-- WHAT YOU WILL FIND HERE -->
+<div style="background:#1C3528;padding:88px 32px">
+  <div style="max-width:880px;margin:0 auto;display:flex;gap:64px;align-items:flex-start;flex-wrap:wrap">
+    <div style="flex:1;min-width:260px">
+      <div class="fade-up" style="font-size:11px;font-weight:700;color:#B8860B;letter-spacing:.15em;text-transform:uppercase;margin-bottom:14px">What You Will Find Here</div>
+      <h2 class="serif fade-up d1" style="font-size:clamp(26px,4vw,38px);font-weight:700;color:#F0EDE4;line-height:1.15;margin-bottom:22px">A professional environment where the work matters.</h2>
+      <p class="fade-up d2" style="font-size:15px;color:#8C9E8C;line-height:1.85;margin-bottom:0">Cousins is not for everyone. It is for professionals who want to do good work, be treated with respect, and not spend their energy managing every part of the business themselves. If that sounds like you, keep reading.</p>
+    </div>
+    <div class="fade-up d2" style="flex:1;min-width:220px;display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;gap:14px;align-items:flex-start;padding:18px 0;border-bottom:1px solid rgba(184,135,42,.12)">
+        <div style="width:6px;height:6px;background:#B8860B;border-radius:50%;flex-shrink:0;margin-top:8px"></div>
+        <div style="font-size:15px;color:#C8D8C8;line-height:1.6">A professional environment with clear expectations</div>
+      </div>
+      <div style="display:flex;gap:14px;align-items:flex-start;padding:18px 0;border-bottom:1px solid rgba(184,135,42,.12)">
+        <div style="width:6px;height:6px;background:#B8860B;border-radius:50%;flex-shrink:0;margin-top:8px"></div>
+        <div style="font-size:15px;color:#C8D8C8;line-height:1.6">Flexible ways to contribute: studio, walk-in, mobile, and events</div>
+      </div>
+      <div style="display:flex;gap:14px;align-items:flex-start;padding:18px 0;border-bottom:1px solid rgba(184,135,42,.12)">
+        <div style="width:6px;height:6px;background:#B8860B;border-radius:50%;flex-shrink:0;margin-top:8px"></div>
+        <div style="font-size:15px;color:#C8D8C8;line-height:1.6">Access to contracted work you did not have to source yourself</div>
+      </div>
+      <div style="display:flex;gap:14px;align-items:flex-start;padding:18px 0;border-bottom:1px solid rgba(184,135,42,.12)">
+        <div style="width:6px;height:6px;background:#B8860B;border-radius:50%;flex-shrink:0;margin-top:8px"></div>
+        <div style="font-size:15px;color:#C8D8C8;line-height:1.6">People who take the work and the client seriously</div>
+      </div>
+      <div style="display:flex;gap:14px;align-items:flex-start;padding:18px 0">
+        <div style="width:6px;height:6px;background:#B8860B;border-radius:50%;flex-shrink:0;margin-top:8px"></div>
+        <div style="font-size:15px;color:#C8D8C8;line-height:1.6">A care-based system that still lets you be an artist</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHO WE ARE LOOKING FOR -->
+<div style="background:#FAFAF7;padding:88px 32px">
+  <div style="max-width:880px;margin:0 auto;display:flex;gap:64px;align-items:flex-start;flex-wrap:wrap">
+
+    <div style="flex:1;min-width:260px">
+      <div class="fade-up" style="font-size:11px;font-weight:700;color:#B8860B;letter-spacing:.15em;text-transform:uppercase;margin-bottom:14px">Who We Are Looking For</div>
+      <h2 class="serif fade-up d1" style="font-size:clamp(24px,3.5vw,36px);font-weight:700;color:#1C3528;line-height:1.2;margin-bottom:20px">Professionals who care about their work.</h2>
+      <p class="fade-up d2" style="font-size:15px;color:#3A3A32;line-height:1.85;margin-bottom:28px">We are looking for professionals who care about the quality of their work, how they communicate, and how clients feel in their chair. This environment is best for people who want flexibility but still respect structure, preparation, and accountability.</p>
+
+      <div class="fade-up d3" style="background:#F5F0E8;border-left:3px solid #B8860B;border-radius:0 10px 10px 0;padding:22px 24px">
+        <div style="font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.1em;margin-bottom:14px">What Does Not Belong Here</div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:13px;color:#3A3A32;line-height:1.6"><span style="color:#B8860B;font-size:10px;margin-top:4px;flex-shrink:0">◆</span>Ego or behavior that disrupts the team or the client experience</div>
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:13px;color:#3A3A32;line-height:1.6"><span style="color:#B8860B;font-size:10px;margin-top:4px;flex-shrink:0">◆</span>Rudeness or hostility toward clients or colleagues</div>
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:13px;color:#3A3A32;line-height:1.6"><span style="color:#B8860B;font-size:10px;margin-top:4px;flex-shrink:0">◆</span>Resistance to feedback or clear communication</div>
+          <div style="display:flex;gap:10px;align-items:flex-start;font-size:13px;color:#3A3A32;line-height:1.6"><span style="color:#B8860B;font-size:10px;margin-top:4px;flex-shrink:0">◆</span>Treating clients as transactions rather than people in your care</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fade-up d2" style="flex:1;min-width:220px;display:flex;flex-direction:column;gap:12px">
+      <div class="lift" style="background:#fff;border-radius:12px;padding:22px 24px;box-shadow:0 1px 10px rgba(0,0,0,.06)">
+        <div style="font-size:14px;font-weight:700;color:#1C3528;margin-bottom:6px">Strong craft, held to a consistent standard</div>
+        <div style="font-size:13px;color:#5A5A52;line-height:1.65">Technical skills matter here. So does showing up the same way every time, regardless of who the client is.</div>
+      </div>
+      <div class="lift" style="background:#fff;border-radius:12px;padding:22px 24px;box-shadow:0 1px 10px rgba(0,0,0,.06)">
+        <div style="font-size:14px;font-weight:700;color:#1C3528;margin-bottom:6px">A learner's posture</div>
+        <div style="font-size:13px;color:#5A5A52;line-height:1.65">You take feedback as information. You ask clarifying questions. You approach new environments with curiosity, not defensiveness.</div>
+      </div>
+      <div class="lift" style="background:#fff;border-radius:12px;padding:22px 24px;box-shadow:0 1px 10px rgba(0,0,0,.06)">
+        <div style="font-size:14px;font-weight:700;color:#1C3528;margin-bottom:6px">Proactive communication</div>
+        <div style="font-size:13px;color:#5A5A52;line-height:1.65">On a mobile deployment, the team depends on each person to communicate clearly and keep the service running. Going silent is not an option.</div>
+      </div>
+      <div class="lift" style="background:#fff;border-radius:12px;padding:22px 24px;box-shadow:0 1px 10px rgba(0,0,0,.06)">
+        <div style="font-size:14px;font-weight:700;color:#1C3528;margin-bottom:6px">Genuine care for the person in your chair</div>
+        <div style="font-size:13px;color:#5A5A52;line-height:1.65">How someone feels during the experience is part of the service. Not separate from it.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- THE WORK -->
+<div style="background:#F5F0E8;padding:80px 32px">
+  <div style="max-width:860px;margin:0 auto">
+    <div style="text-align:center;margin-bottom:48px">
+      <div class="fade-up" style="font-size:11px;font-weight:700;color:#B8860B;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px">The Work</div>
+      <h2 class="serif fade-up d1" style="font-size:clamp(22px,3.5vw,34px);font-weight:700;color:#1C3528;line-height:1.2;margin-bottom:14px">Studio, mobile, and care-based service environments.</h2>
+      <p class="fade-up d2" style="font-size:14px;color:#5A5A52;line-height:1.75;max-width:520px;margin:0 auto">You set your schedule. Studio appointments and walk-ins are available alongside mobile deployments and contracted service events across Riverside and San Bernardino Counties.</p>
+    </div>
+    <div class="fade-up d3" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:40px">
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Studio Appointments</div>
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Walk-In Clients</div>
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Mobile Deployments</div>
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Community Events</div>
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Foster Youth Programs</div>
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Senior Care Facilities</div>
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Workplace Programs</div>
+      <div style="background:#fff;border-radius:24px;padding:9px 20px;font-size:13px;font-weight:600;color:#2A2A22;box-shadow:0 1px 4px rgba(0,0,0,.06)">Healthcare Sites</div>
+    </div>
+    <div class="fade-up d4" style="background:#1C3528;border-radius:14px;padding:28px 32px;max-width:580px;margin:0 auto;text-align:center">
+      <p class="serif" style="font-size:17px;color:#F0EDE4;line-height:1.65;margin-bottom:14px">"The goal is to teach the next generation how to provide high quality hair care to all persons."</p>
+      <div style="font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.1em">Jordyn Brown, Founder</div>
+      <div style="font-size:11px;color:#6A7A6A;margin-top:3px">Cousins Styling Studio &nbsp;·&nbsp; Moreno Valley, CA</div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div id="how-it-works" style="background:#1C3528;padding:88px 32px;scroll-margin-top:20px">
+  <div style="max-width:760px;margin:0 auto;text-align:center">
+    <div class="fade-up" style="font-size:11px;font-weight:700;color:#B8860B;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px">How It Works</div>
+    <h2 class="serif fade-up d1" style="font-size:clamp(24px,3.5vw,36px);font-weight:700;color:#F0EDE4;line-height:1.2;margin-bottom:14px">A straightforward process.</h2>
+    <p class="fade-up d2" style="font-size:14px;color:#6A7A6A;line-height:1.75;max-width:480px;margin:0 auto 52px">We respond within 48 hours. If we are not the right fit for each other right now, we will tell you clearly and respectfully.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;margin-bottom:40px">
+      <div class="fade-up" style="padding:0 20px;text-align:center">
+        <div class="serif" style="width:50px;height:50px;background:#B8860B;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:20px;font-weight:700;color:#1C3528">1</div>
+        <div style="font-size:14px;font-weight:700;color:#F0EDE4;margin-bottom:8px">Apply</div>
+        <div style="font-size:13px;color:#6A7A6A;line-height:1.7">Tell us about your experience, your specialties, and what you are looking for.</div>
+      </div>
+      <div class="fade-up d1" style="padding:0 20px;text-align:center">
+        <div class="serif" style="width:50px;height:50px;background:#B8860B;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:20px;font-weight:700;color:#1C3528">2</div>
+        <div style="font-size:14px;font-weight:700;color:#F0EDE4;margin-bottom:8px">Conversation</div>
+        <div style="font-size:13px;color:#6A7A6A;line-height:1.7">A call to understand your goals and confirm we can support them. No pressure, no pitch.</div>
+      </div>
+      <div class="fade-up d2" style="padding:0 20px;text-align:center">
+        <div class="serif" style="width:50px;height:50px;background:#B8860B;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:20px;font-weight:700;color:#1C3528">3</div>
+        <div style="font-size:14px;font-weight:700;color:#F0EDE4;margin-bottom:8px">Assessment</div>
+        <div style="font-size:13px;color:#6A7A6A;line-height:1.7">A professional readiness review. We want to see how you think, ask questions, and navigate a process.</div>
+      </div>
+      <div class="fade-up d3" style="padding:0 20px;text-align:center">
+        <div class="serif" style="width:50px;height:50px;background:#B8860B;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:20px;font-weight:700;color:#1C3528">4</div>
+        <div style="font-size:14px;font-weight:700;color:#F0EDE4;margin-bottom:8px">Placement</div>
+        <div style="font-size:13px;color:#6A7A6A;line-height:1.7">Studio, mobile, or both, based on your skills, your availability, and where the team needs you.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FINAL CTA -->
+<div style="background:#FAFAF7;padding:80px 32px;text-align:center">
+  <div style="max-width:560px;margin:0 auto">
+    <h2 class="serif fade-up" style="font-size:clamp(26px,4vw,42px);font-weight:700;color:#1C3528;line-height:1.15;margin-bottom:14px">Bring your craft into a system built to support it.</h2>
+    <p class="fade-up d1" style="font-size:15px;color:#5A5A52;line-height:1.75;margin-bottom:14px">As Cousins grows, we intend to invest in education and professional development that strengthens the industry and creates more pathways into high-quality care.</p>
+    <p class="fade-up d2" style="font-size:14px;color:#7A7A72;line-height:1.7;margin-bottom:36px">If you are currently in school or pre-licensed, apply and note your status. When the time is right, we will be in touch.</p>
+    <a href="#apply" onclick="document.getElementById('apply').scrollIntoView({behavior:'smooth'});return false" class="btn-gold fade-up d3" style="padding:15px 40px;font-size:15px;box-shadow:0 4px 20px rgba(184,135,42,.25)">Apply to Join Cousins</a>
+  </div>
+</div>
+
+<!-- APPLICATION FORM -->
+<div id="apply" style="background:#1C3528;padding:88px 32px;scroll-margin-top:20px">
+  <div style="max-width:620px;margin:0 auto">
+    <div style="text-align:center;margin-bottom:48px">
+      <div class="fade-up" style="font-size:11px;font-weight:700;color:#B8860B;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px">Apply to Join</div>
+      <h2 class="serif fade-up d1" style="font-size:clamp(24px,3.5vw,36px);font-weight:700;color:#F0EDE4;line-height:1.2;margin-bottom:10px">Tell us about yourself.</h2>
+      <p class="fade-up d2" style="font-size:14px;color:#6A7A6A;line-height:1.7">We respond within 48 hours. Every application is reviewed personally.</p>
+    </div>
+
+    <form action="https://formsubmit.co/info@bookcousins.com" method="POST" style="display:flex;flex-direction:column;gap:16px">
+      <input type="hidden" name="_subject" value="New Professional Application - Cousins Styling Studio">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://bookcousins.com/for-stylists.html">
+
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <div style="flex:1;min-width:190px">
+          <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">Full Name *</label>
+          <input type="text" name="name" required style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+        </div>
+        <div style="flex:1;min-width:190px">
+          <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">Phone Number *</label>
+          <input type="tel" name="phone" required style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+        </div>
+      </div>
+
+      <div>
+        <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">Email Address *</label>
+        <input type="email" name="email" required style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+      </div>
+
+      <div>
+        <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">License Status *</label>
+        <select name="license_status" required style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+          <option value="">Select one</option>
+          <option>Licensed Barber</option>
+          <option>Licensed Cosmetologist</option>
+          <option>Licensed Braider</option>
+          <option>Licensed Esthetician</option>
+          <option>Currently in School / Pre-Licensed</option>
+          <option>Exploring a Career in Hair Care</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div>
+        <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">Primary Specialties</label>
+        <input type="text" name="specialties" placeholder="e.g. Fades, braids, locs, natural hair, protective styles, color" style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+      </div>
+
+      <div>
+        <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">Years of Experience</label>
+        <select name="experience" style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+          <option value="">Select one</option>
+          <option>Currently in school</option>
+          <option>Less than 1 year</option>
+          <option>1 to 3 years</option>
+          <option>3 to 5 years</option>
+          <option>5 or more years</option>
+        </select>
+      </div>
+
+      <div>
+        <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">What type of work interests you? *</label>
+        <select name="work_type" required style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+          <option value="">Select one</option>
+          <option>Studio appointments and walk-ins</option>
+          <option>Mobile deployments and events</option>
+          <option>Both: studio and mobile work</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+
+      <div>
+        <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">Tell Us About Yourself *</label>
+        <textarea name="about" rows="5" required placeholder="Who are you as a professional? What drives your work? What are you looking for that your current situation does not offer?" style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px;resize:vertical"></textarea>
+      </div>
+
+      <div>
+        <label style="display:block;font-size:11px;font-weight:700;color:#B8860B;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px">How Did You Hear About Us?</label>
+        <input type="text" name="referral" placeholder="e.g. Google, Instagram, a client, a colleague" style="width:100%;font-size:14px;color:#1A1A18;background:#F5F0E8;border:1px solid rgba(184,135,42,.25);border-radius:7px;padding:12px 14px">
+      </div>
+
+      <button type="submit" style="background:#B8860B;color:#1C3528;border:none;padding:15px 32px;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;margin-top:4px;transition:transform .2s,box-shadow .2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(184,135,42,.35)'" onmouseout="this.style.transform='';this.style.boxShadow=''">Submit Application</button>
+
+      <div style="font-size:13px;color:#6A7A6A;text-align:center;line-height:1.7;margin-top:4px">We respond within 48 hours. Questions? Call (951) 653-4477 or email info@bookcousins.com.</div>
+    </form>
+  </div>
+</div>
+
+<!-- SITE LINKS -->
+<div style="background:#F5F0E8;padding:28px 32px;text-align:center;border-top:1px solid #E8E4DA">
+  <div style="max-width:600px;margin:0 auto;display:flex;gap:24px;justify-content:center;flex-wrap:wrap">
+    <a href="https://bookcousins.com/" style="font-size:13px;color:#1C3528;text-decoration:none;font-weight:600;transition:color .2s" onmouseover="this.style.color='#B8860B'" onmouseout="this.style.color='#1C3528'">Home</a>
+    <a href="https://bookcousins.com/for-organizations.html" style="font-size:13px;color:#1C3528;text-decoration:none;font-weight:600;transition:color .2s" onmouseover="this.style.color='#B8860B'" onmouseout="this.style.color='#1C3528'">For Organizations</a>
+    <a href="https://bookservices.bookcousins.com/" target="_blank" style="font-size:13px;color:#1C3528;text-decoration:none;font-weight:600;transition:color .2s" onmouseover="this.style.color='#B8860B'" onmouseout="this.style.color='#1C3528'">Book a Service</a>
+    <a href="mailto:info@bookcousins.com" style="font-size:13px;color:#1C3528;text-decoration:none;font-weight:600;transition:color .2s" onmouseover="this.style.color='#B8860B'" onmouseout="this.style.color='#1C3528'">Contact Us</a>
+  </div>
+</div>
+
+<!-- CREDENTIAL BAR -->
+<div style="background:#2C5440;padding:14px 32px;text-align:center">
+  <div style="max-width:900px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center">
+    <span style="font-size:11px;color:#8A9E8A">Licensed Professionals</span>
+    <span style="color:#B8860B;font-size:9px">◆</span>
+    <span style="font-size:11px;color:#8A9E8A">Textured Hair Competency</span>
+    <span style="color:#B8860B;font-size:9px">◆</span>
+    <span style="font-size:11px;color:#8A9E8A">High-Trust Service Standards</span>
+    <span style="color:#B8860B;font-size:9px">◆</span>
+    <span style="font-size:11px;color:#8A9E8A">Mobile and Studio Operations</span>
+    <span style="color:#B8860B;font-size:9px">◆</span>
+    <span style="font-size:11px;color:#8A9E8A">Riverside and San Bernardino Counties</span>
+  </div>
+</div>
+
+<script>
+var obs=new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}
+  });
+},{threshold:0.1});
+document.querySelectorAll('.fade-up:not(.visible)').forEach(function(el){obs.observe(el);});
+</script>
+</body>
+</html>
